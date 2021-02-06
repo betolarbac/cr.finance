@@ -28,7 +28,7 @@
                     <span>Entradas</span>
                     <img src="./assets/income.svg" alt="imagem de entrada">
                 </h3>
-                <p>R$ 5.000,00</p>
+                <p id="incomeDisplay">R$ 5.000,00</p>
             </div>
 
             <div class="card">
@@ -36,14 +36,14 @@
                     <span>Saídas</span>
                     <img src="./assets/expense.svg" alt="imagem de sáidas">
                 </h3>
-                <p>R$ 2.000,00</p>
+                <p id="expenseDisplay">R$ 2.000,00</p>
             </div>
             <div class="card total">
                 <h3>
                     <span>Total</span>
                     <img src="./assets/total.svg" alt="imagem de total">
                 </h3>
-                <p>R$ 3.000,00</p>
+                <p id="totalDisplay">R$ 3.000,00</p>
             </div>
 
 
@@ -65,34 +65,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td class="description">luz</td>
-                        <td class="expense">- R$ 500,00</td>
-                        <td>20/01/2021</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover trasação">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="description">Agua</td>
-                        <td class="expense">- R$ 200,00</td>
-                        <td>20/01/2021</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover trasação">
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td class="description">Criação de web site</td>
-                        <td class="income">R$ 5.000,00</td>
-                        <td>20/01/2021</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover trasação">
-                        </td>
-                    </tr>
-
-
+                   
                 </tbody>
             </table>
         </section>
@@ -139,22 +112,8 @@
     </footer>
 
 
-    <script>
-        const Modal = {
-            open(){
-                //abrir modal 
-                //adicionar classe active
-                document.querySelector('.modal-overlay')
-                .classList.add('active')
-            },
+    <script src="./script.js">
 
-            close(){
-                //fechar modal
-                //retirar classe active
-                document.querySelector('.modal-overlay')
-                .classList.remove('active')
-            }
-        }
     </script>
 
 </body>
