@@ -235,6 +235,8 @@ td.expense {
 
     opacity: 0;
     visibility: hidden;
+
+    z-index: 999;
 }
 
 .modal-overlay.active {
@@ -245,6 +247,9 @@ td.expense {
 .modal {
     background: #f0f2f5;
     padding: 2.4rem;
+
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -287,6 +292,7 @@ input {
 } 
 /* footer*/
 footer {
+    
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
@@ -301,6 +307,8 @@ footer {
     html {
         font-size: 87.5%;
     }
+
+    
 
     #balance {
         display: grid;
