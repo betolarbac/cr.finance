@@ -24,5 +24,5 @@ O dev.finances é uma aplicação de controle financeiro, onde é possível cada
 
 ## 🔖 site
 
-Você pode visualizar o projeto finalizado [nesse link]([cr.finance$ (betolarbac.github.io)](https://betolarbac.github.io/cr.finance/)). Você pode utilizar os serviços a vontade 
+Você pode visualizar o projeto finalizado [nesse link](https://betolarbac.github.io/cr.finance/). Você pode utilizar os serviços a vontade 
 
